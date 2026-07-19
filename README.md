@@ -1,18 +1,14 @@
-# Ropl-btc Linear-tui
+# Linear TUI Homebrew tap
 
-## How do I install these formulae?
+Linear TUI has moved to Robin's general Homebrew tap.
 
-`brew install ropl-btc/linear-tui/<formula>`
-
-Or `brew tap ropl-btc/linear-tui` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "ropl-btc/linear-tui"
-brew "<formula>"
+```sh
+brew install robin-liquidium/tap/linear-tui
 ```
 
-## Documentation
+Existing installations from this tap, including its former `ropl-btc/linear-tui` name, are migrated automatically by Homebrew. For a `Brewfile`, use:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```ruby
+tap "robin-liquidium/tap"
+brew "linear-tui"
+```
